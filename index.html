@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ================================================
+       APP NAME — update the <title> tag below
+       ================================================ -->
+  <title>Kiss Budgeting — Support</title>
+  <meta name="description" content="Support page for Kiss Budgeting — simple, private, and realistic budgeting for iOS." />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Google Font: DM Serif Display (headings) + DM Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- =============================================
+       NAVIGATION
+       ============================================= -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Main navigation">
+      <!-- ✏️ Replace "Kiss Budgeting" with your APP_NAME -->
+      <a href="#hero" class="nav-logo">Kiss Budgeting</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#support">Support</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- =============================================
+         HERO SECTION
+         ============================================= -->
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="container hero-inner">
+        <div class="hero-badge">iOS App</div>
+        <!-- ✏️ Replace with your APP_NAME -->
+        <h1 id="hero-heading">Kiss Budgeting</h1>
+        <!-- ✏️ Replace with your APP_DESCRIPTION -->
+        <p class="hero-description">
+          Simple, private, and realistic budgeting — built around how you actually spend.
+          No bank connections. No ads. No data selling. Just clarity.
+        </p>
+        <div class="hero-cta">
+          <a href="#support" class="btn btn-primary">Get Help</a>
+          <a href="#faq" class="btn btn-secondary">Browse FAQ</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         SUPPORT SECTION
+         ============================================= -->
+    <section class="section" id="support" aria-labelledby="support-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="support-heading">Support</h2>
+          <p class="section-subtext">
+            We're here to help. Choose an option below and we'll get back to you as quickly as possible.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+
+          <!-- Bug Report Card -->
+          <!-- ✏️ Replace the href with your BUG_REPORT_FORM_LINK -->
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScQxHcRDrpsq-dmBr3QplDMmFJJDCzdpZHSRm0f5SfrrTrFAA/viewform?usp=publish-editor"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="support-card"
+             aria-label="Report a bug — opens Google Form">
+            <div class="card-icon" aria-hidden="true">🐛</div>
+            <h3>Report a Bug</h3>
+            <p>Found something that isn't working correctly? Let us know so we can fix it quickly.</p>
+            <span class="card-link">Open Form →</span>
+          </a>
+
+          <!-- Feedback Card -->
+          <!-- ✏️ Replace the href with your USER_FEEDBACK_FORM_LINK -->
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfYSWCZMyMI88lhzPSCb2dhoiXVXg1y5Zk7SW1Xd0MaCx1Urw/viewform?usp=publish-editor"
+             target="_blank"
+             rel="noopener noreferrer"
+             class="support-card"
+             aria-label="Share feedback — opens Google Form">
+            <div class="card-icon" aria-hidden="true">💬</div>
+            <h3>Share Feedback</h3>
+            <p>Have a suggestion or feature request? We'd love to hear what would make the app better for you.</p>
+            <span class="card-link">Open Form →</span>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         FAQ SECTION
+         ============================================= -->
+    <section class="section section-alt" id="faq" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="faq-heading">Frequently Asked Questions</h2>
+          <p class="section-subtext">Quick answers to the most common questions.</p>
+        </div>
+
+        <div class="faq-list" role="list">
+
+          <!-- ✏️ Add, remove, or edit FAQ items below -->
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1">
+              How do I get started with Kiss Budgeting?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-1" hidden>
+              <p>
+                When you first open Kiss Budgeting, you'll be guided through a quick setup to create your spending categories and set initial budgets. From there, simply log transactions as you spend — the app will track your progress against each budget in real time. No bank account connection required.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2">
+              How do I add or manage recurring expenses?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-2" hidden>
+              <p>
+                Navigate to the Recurring section in the app to add subscriptions, bills, or any repeating payment. You can set the amount, frequency, and due date so Kiss Budgeting can remind you and factor them into your budget automatically — no more surprise charges.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3">
+              How do I export or import my data?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-3" hidden>
+              <p>
+                You can export your data from <strong>Settings → Export Data</strong>. This creates a file you can save to Files, iCloud, or share anywhere. To import data on a new device, go to <strong>Settings → Import Data</strong> and select your exported file.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4">
+              Is my financial data private and secure?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-4" hidden>
+              <p>
+                Yes — completely. Kiss Budgeting is privacy-first by design. All your data stays on your device and is never transmitted to any server. There are no bank connections, no account sign-ups, no ads, and no data selling. Your financial information is yours alone.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-5">
+              How do I report a bug or request a feature?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-5" hidden>
+              <p>
+                Use the forms in the <a href="#support">Support section</a> above — there's a dedicated form for bug reports and another for feature feedback. You can also email us directly at the address in the <a href="#contact">Contact section</a>.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" role="listitem">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-6">
+              Can I use Kiss Budgeting on multiple devices?
+              <span class="faq-icon" aria-hidden="true"></span>
+            </button>
+            <div class="faq-answer" id="faq-6" hidden>
+              <p>
+                Because Kiss Budgeting stores data locally for privacy reasons, data doesn't sync automatically between devices. You can transfer your data manually using the Export and Import feature described above.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================================
+         CONTACT SECTION
+         ============================================= -->
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="contact-heading">Contact Us</h2>
+          <p class="section-subtext">Prefer to reach out directly? We'd love to hear from you.</p>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-icon" aria-hidden="true">✉️</div>
+          <div class="contact-body">
+            <p class="contact-label">Support Email</p>
+            <!-- ✏️ Replace with your SUPPORT_EMAIL -->
+            <a href="mailto:support@kissbudgeting.app" class="contact-email">
+              support@kissbudgeting.app
+            </a>
+            <p class="contact-response">We typically respond within 1–2 business days.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================
+         PRIVACY SECTION
+         ============================================= -->
+    <section class="section section-alt" id="privacy" aria-labelledby="privacy-heading">
+      <div class="container">
+        <div class="section-header">
+          <h2 id="privacy-heading">Privacy</h2>
+          <p class="section-subtext">
+            Your financial data never leaves your device. Kiss Budgeting collects no personal information, requires no account, and never shares or sells your data.
+          </p>
+        </div>
+
+        <div class="privacy-card">
+          <span aria-hidden="true">🔒</span>
+          <!-- ✏️ Replace href with your PRIVACY_POLICY_LINK -->
+          <a href="#" class="btn btn-secondary" aria-label="Read the full Privacy Policy">
+            Read our Privacy Policy
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <!-- ✏️ Replace with your APP_NAME -->
+        <span class="footer-logo">Kiss Budgeting</span>
+        <!-- ✏️ Replace year / name as needed -->
+        <span class="footer-copy">© 2025 Kiss Budgeting. All rights reserved.</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#support">Support</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+        <a href="#privacy">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
