@@ -296,6 +296,14 @@ a:focus-visible {
   gap: var(--space-sm);
 }
 
+.hero-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  box-shadow: var(--shadow-md);
+  margin-bottom: var(--space-xs);
+}
+
 .hero-badge {
   display: inline-block;
   font-size: 0.78rem;
