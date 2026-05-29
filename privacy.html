@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — KISS Budgeting</title>
+  <meta name="description" content="Privacy Policy for KISS Budgeting — your data never leaves your device." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* Privacy page-specific styles */
+    .privacy-page {
+      padding: var(--space-xl) 0 var(--space-2xl);
+    }
+
+    .privacy-page .container {
+      max-width: 660px;
+    }
+
+    .privacy-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: var(--color-text-muted);
+      text-decoration: none;
+      margin-bottom: var(--space-lg);
+      transition: color var(--transition);
+    }
+
+    .privacy-back:hover,
+    .privacy-back:focus-visible {
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+
+    .privacy-header {
+      margin-bottom: var(--space-lg);
+      padding-bottom: var(--space-md);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .privacy-header h1 {
+      font-family: var(--font-heading);
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 400;
+      line-height: 1.15;
+      margin-bottom: var(--space-xs);
+    }
+
+    .privacy-meta {
+      font-size: 0.88rem;
+      color: var(--color-text-light);
+    }
+
+    .privacy-summary {
+      background: var(--color-accent-soft);
+      border: 1px solid rgba(74,124,111,0.2);
+      border-radius: var(--radius-md);
+      padding: var(--space-md);
+      margin-bottom: var(--space-lg);
+    }
+
+    .privacy-summary p {
+      font-size: 0.97rem;
+      color: var(--color-accent-dark);
+      line-height: 1.65;
+      font-weight: 500;
+    }
+
+    .policy-section {
+      margin-bottom: var(--space-lg);
+    }
+
+    .policy-section h2 {
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      font-weight: 400;
+      color: var(--color-text);
+      margin-bottom: var(--space-xs);
+    }
+
+    .policy-section p,
+    .policy-section li {
+      font-size: 0.96rem;
+      color: var(--color-text-muted);
+      line-height: 1.75;
+    }
+
+    .policy-section ul {
+      list-style: none;
+      padding: 0;
+      margin-top: var(--space-xs);
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .policy-section ul li {
+      padding-left: 1.2rem;
+      position: relative;
+    }
+
+    .policy-section ul li::before {
+      content: '–';
+      position: absolute;
+      left: 0;
+      color: var(--color-accent);
+    }
+
+    .policy-section a {
+      font-weight: 500;
+    }
+
+    .policy-divider {
+      border: none;
+      border-top: 1px solid var(--color-border);
+      margin: var(--space-lg) 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" aria-label="Main navigation">
+      <a href="index.html" class="nav-logo">KISS Budgeting</a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="index.html#support">Support</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="index.html#privacy">Privacy</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="privacy-page">
+      <div class="container">
+
+        <a href="index.html" class="privacy-back" aria-label="Back to support page">
+          ← Back to Support
+        </a>
+
+        <div class="privacy-header">
+          <h1>Privacy Policy</h1>
+          <!-- ✏️ Update this date whenever you revise the policy -->
+          <p class="privacy-meta">Effective date: June 1, 2025 &nbsp;·&nbsp; Last updated: June 1, 2025</p>
+        </div>
+
+        <!-- Plain-language summary at the top -->
+        <div class="privacy-summary" role="note" aria-label="Privacy summary">
+          <p>
+            The short version: KISS Budgeting stores all your data locally on your device.
+            Nothing is collected, transmitted, or shared. There are no accounts, no analytics, no ads, and no third-party access to your information — ever.
+          </p>
+        </div>
+
+        <!-- 1 -->
+        <div class="policy-section">
+          <h2>1. Overview</h2>
+          <p>
+            KISS Budgeting ("the app") is an iOS application built with a privacy-first approach.
+            This policy explains what data the app handles, how it is stored, and your rights as a user.
+            Because the app does not collect or transmit personal data, this policy is intentionally simple.
+          </p>
+        </div>
+
+        <hr class="policy-divider" />
+
+        <!-- 2 -->
+        <div class="policy-section">
+          <h2>2. Data We Do Not Collect</h2>
+          <p>KISS Budgeting does not collect, store, or transmit any of the following:</p>
+          <ul>
+            <li>Personal identifiers (name, email address, phone number)</li>
+            <li>Financial account credentials or bank access</li>
+            <li>Location data</li>
+            <li>Device identifiers or advertising IDs</li>
+            <li>Usage analytics or behavioural data</li>
+            <li>Crash logs or diagnostics sent to any external server</li>
+            <li>Any data through third-party SDKs, analytics tools, or ad networks</li>
+          </ul>
+        </div>
+
+        <hr class="policy-divider" />
+
+        <!-- 3 -->
+        <div class="policy-section">
+          <h2>3. Data Stored on Your Device</h2>
+          <p>
+            All data you enter into KISS Budgeting — including budgets, transactions, categories, and recurring expenses — is stored exclusively on your device using Apple's local storage frameworks. This data:
+          </p>
+          <ul>
+            <li>Never leaves your device automatically</li>
+            <li>Is not accessible to the app developer</li>
+            <li>Is not backed up to any external server operated by KISS Budgeting</li>
+            <li>May be included in Apple's standard iCloud or iTunes device backups, which are governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple's Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <hr class="policy-divider" />
+
+        <!-- 4 -->
+        <div class="policy-section">
+          <h2>4. No Third-Party Sharing</h2>
+          <p>
+            There are no third-party services, advertising networks, data brokers, or analytics providers integrated into KISS Budgeting. No data is sold, rented, or shared with any third party under any circumstances.
+          </p>
+        </div>
+
+        <hr class="policy-divider" />
+
+        <!-- 5 -->
+        <div class="policy-section">
+          <h2>5. No Account Required</h2>
+          <p>
+            KISS Budgeting does not require you to create an account or provide any personal information to use the app. The app functions entirely without registration or sign-in.
+          </p>
+        </div>
+
+        <hr class="policy-divider" />
+
+        <!-- 6 -->
+        <div class="policy-section">
+          <h2>6. Children's Privacy</h2>
+          <p>
+            KISS Budgeting does not knowingly collect any data from anyone, including children under the age of 13. Because no data is collected at all, the app complies with the Children's Online Privacy Protection Act (COPPA) and similar regulations by design.
+          </p>
+        </div>
+
+        <hr class="policy-divider" />
+
+        <!-- 7 -->
+        <div class="policy-section">
+          <h2>7. Data Deletion</h2>
+          <p>
+            Because all data is stored locally on your device, you have full control over it at all times. To delete your data, simply delete the app from your device. This permanently removes all app data stored locally. There is no data held on any external server to request deletion of.
+          </p>
+        </div>
+
+        <hr class="policy-divider" />
+
+        <!-- 8 -->
+        <div class="policy-section">
+          <h2>8. Changes to This Policy</h2>
+          <p>
+            This privacy policy may be updated from time to time. Any changes will be reflected on this page with a revised effective date. Continued use of the app after changes are posted constitutes acceptance of the updated policy. Given the app's privacy-first design, any future changes are expected to remain minimal.
+          </p>
+        </div>
+
+        <hr class="policy-divider" />
+
+        <!-- 9 -->
+        <div class="policy-section">
+          <h2>9. Contact</h2>
+          <p>
+            Questions or concerns about this privacy policy can be directed to:
+            <br /><br />
+            <!-- ✏️ Replace with your SUPPORT_EMAIL if different -->
+            <a href="mailto:kissbudgetapp@gmail.com">kissbudgetapp@gmail.com</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">KISS Budgeting</span>
+        <span class="footer-copy">© 2025 KISS Budgeting. All rights reserved.</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="index.html#support">Support</a>
+        <a href="index.html#faq">FAQ</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
